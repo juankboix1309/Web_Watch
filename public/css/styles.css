@@ -1,0 +1,198 @@
+#clock {
+  opacity: 1; }
+
+#analogClock {
+  background: white;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto 10px auto;
+  border-style: solid;
+  position: absolute;
+  display: normal;
+  opacity: 0; }
+
+#digitalClock {
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto 10px auto;
+  border-style: solid;
+  position: absolute;
+  display: normal;
+  opacity: 1;
+  font-size: 100px;
+  background: white;
+  line-height: 500px;
+  text-align: center;
+  opacity: 0; }
+
+.n {
+  margin: 0 auto 10px auto;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  position: absolute; }
+  .n.n1 {
+    transform: rotate(30deg); }
+  .n.n2 {
+    transform: rotate(60deg); }
+  .n.n3 {
+    transform: rotate(90deg); }
+  .n.n4 {
+    transform: rotate(120deg); }
+  .n.n5 {
+    transform: rotate(150deg); }
+  .n.n6 {
+    transform: rotate(180deg); }
+  .n.n7 {
+    transform: rotate(210deg); }
+  .n.n8 {
+    transform: rotate(240deg); }
+  .n.n9 {
+    transform: rotate(270deg); }
+  .n.n10 {
+    transform: rotate(300deg); }
+  .n.n11 {
+    transform: rotate(330deg); }
+  .n.n12 {
+    transform: rotate(360deg); }
+
+.mitad-pintada-hora {
+  width: 50%;
+  background: blue;
+  float: right;
+  height: 30px;
+  border-radius: 25px; }
+
+.mitad-no-pintada-hora {
+  width: 50%;
+  background: white;
+  float: left;
+  height: 30px;
+  opacity: 0; }
+
+.mitad-pintada-minuto {
+  width: 50%;
+  background: red;
+  float: right;
+  height: 20px;
+  border-radius: 25px; }
+
+.mitad-no-pintada-minuto {
+  width: 50%;
+  background: white;
+  float: left;
+  height: 20px;
+  opacity: 0; }
+
+.mitad-pintada-segundo {
+  width: 50%;
+  background: orange;
+  float: right;
+  height: 10px;
+  border-radius: 25px; }
+
+.mitad-no-pintada-segundo {
+  width: 50%;
+  background: white;
+  float: left;
+  height: 10px;
+  opacity: 0; }
+
+/*
+.agujahora
+{
+  position: absolute;
+  right: 25px;
+  top: 235px;
+  width: 450px;
+  
+  &.hora
+  {
+    right: 125px;
+    height: 30px;  
+    width: 250px;
+    transform: rotate($rotationHora);
+  }
+  &.minutos
+  {
+    height: 20px;
+    top: 240px;
+    transform: rotate($rotationMinuto);
+  }
+  &.segundos
+  {
+    height: 10px;
+    top: 245px;
+    transform: rotate($rotationSegundo);
+  }
+}
+*/
+#agujahora {
+  position: absolute;
+  right: 25px;
+  top: 235px;
+  width: 450px;
+  right: 125px;
+  height: 30px;
+  width: 250px;
+  transform: rotate(270deg); }
+
+#agujaminutos {
+  position: absolute;
+  right: 25px;
+  top: 235px;
+  width: 450px;
+  height: 20px;
+  top: 240px;
+  transform: rotate(270deg); }
+
+#agujasegundos {
+  position: absolute;
+  right: 25px;
+  top: 235px;
+  width: 450px;
+  height: 10px;
+  top: 245px;
+  transform: rotate(270deg); }
+
+/*
+$traffic-light-width: 200px;
+$light-size: $traffic-light-width*0.75;
+.traffic-light{
+  background: black;
+  margin-bottom: 10px;
+  padding: $traffic-light-width*0.1;
+  width: $traffic-light-width;
+
+  .light{
+    background: white;
+    border-radius: 100%;
+    height: $light-size;
+    margin: 0 auto 10px auto;
+    width: $light-size;
+
+    &.green{
+      background: #0f0;
+    }
+
+    &.red{
+      background: red;
+    }
+
+    &.yellow{
+      background: yellow;
+    }
+
+    &.off{
+      opacity: 0.3;
+    }
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+*/
